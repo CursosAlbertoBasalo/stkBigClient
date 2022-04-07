@@ -23,13 +23,21 @@
       "dom"
     ],
     "paths": {
-      "api": [
+      "@stk/api": [
         "dist/api/api",
         "dist/api"
       ],
-      "ui": [
+      "@stk/api/*": [
+        "projects/api/*",
+        "projects/api"
+      ],
+      "@stk/ui": [
         "dist/ui/ui",
         "dist/ui"
+      ],
+      "@stk/ui/*": [
+        "projects/ui/*",
+        "projects/ui"
       ]
     }
   },
