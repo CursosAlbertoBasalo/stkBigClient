@@ -1,16 +1,8 @@
 import { NgModule } from '@angular/core';
-import { ApiComponent } from './api.component';
-
-
 
 @NgModule({
-  declarations: [
-    ApiComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    ApiComponent
-  ]
+  declarations: [],
+  imports: [],
+  exports: [],
 })
-export class ApiModule { }
+export class ApiModule {}
